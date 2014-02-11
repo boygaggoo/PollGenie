@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.musketeers.pollme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!-- Dashboard Activity -->
+        <activity
+            android:label="@string/app_name"
+            android:name="com.musketeers.pollgenie.DashboardActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Group Activity -->
+        <activity
+            android:label="@string/app_name"
+            android:name="com.musketeers.pollgenie.GroupActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Poll Activity -->
+        <activity
+            android:label="@string/app_name"
+            android:name="com.musketeers.pollgenie.PollActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Join Activity -->
+        <activity
+            android:label="@string/app_name"
+            android:name="com.musketeers.pollgenie.JoinActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <!--  Login Activity -->
+        <activity
+            android:label="Login Account" 
+            android:name="com.musketeers.pollgenie.LoginActivity"></activity>
+
+        <!--  Register Activity -->
+        <activity
+            android:label="Register New Account" 
+            android:name="com.musketeers.pollgenie.RegisterActivity"></activity>
+       
+    </application>
+    
+    <!-- Allow to connect with internet -->
+	<uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

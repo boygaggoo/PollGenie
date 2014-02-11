@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  
+    <!-- Album id / Hidden by default -->
+    <TextView
+        android:id="@+id/poll_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+     
+    <!-- Choice -->
+
+    <TextView
+        android:id="@+id/poll_choice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="15dip"
+        android:text="question"
+        android:textColor="#fff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+  
+    
+     
+  
+</RelativeLayout>

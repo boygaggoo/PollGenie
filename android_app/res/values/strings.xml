@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboard!</string>
+    <string name="app_name">Poll Genie</string>
+    <string name="logout">Logout</string>
+    <string name="all_groups">All Groups</string>
+    <string name="join_group">Join Group</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="result">Results</string>
+    <string name="group">Group</string>
+    <string name="resultURL">http://droid-maruni.rhcloud.com/api/p_result/</string>
+
+</resources>
